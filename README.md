@@ -19,7 +19,7 @@ This project is part of **Udacity's AI Programming with Python and TensorFlow Na
    pip install -r requirements.txt
    ```
 ## Acceptance
-✅ This project has been approved by Udacity!
+<img src="pass.png" alt="Feature preview" width="600">
 
 
 ## Usage
