@@ -1,0 +1,78 @@
+Command Line Arguments:
+     dir = uploaded_images/ 
+    arch = resnet 
+ dogfile = dognames.txt
+
+Pet Image Label Dictionary has 4 key-value pairs.
+Below are 4 of them:
+ 1 key:                     Dog_02.jpg  label:                        dog
+ 2 key:               White_cat_01.jpg  label:                  white cat
+ 3 key:           Seating_chair_01.jpg  label:              seating chair
+ 4 key:                     Dog_01.jpg  label:                        dog
+
+     MATCH:
+
+ NOT A MATCH:
+
+                    Dog_02.jpg: 
+Real:                        dog   Classifier: three-toed sloth, ai, bradypus tridactylus
+
+              White_cat_01.jpg: 
+Real:                  white cat   Classifier:          tabby, tabby cat, cat
+
+          Seating_chair_01.jpg: 
+Real:              seating chair   Classifier:          rocking chair, rocker
+
+                    Dog_01.jpg: 
+Real:                        dog   Classifier:                 great pyrenees
+
+# Total Images 4 # Matches: 0 # NOT Matches: 4
+
+     MATCH:
+
+ NOT A MATCH:
+
+                    Dog_02.jpg: 
+Real:                        dog   Classifier: three-toed sloth, ai, bradypus tridactylus  
+PetLabelDog: 1  ClassLabelDog: 0
+
+              White_cat_01.jpg: 
+Real:                  white cat   Classifier:          tabby, tabby cat, cat  
+PetLabelDog: 0  ClassLabelDog: 0
+
+          Seating_chair_01.jpg: 
+Real:              seating chair   Classifier:          rocking chair, rocker  
+PetLabelDog: 0  ClassLabelDog: 0
+
+                    Dog_01.jpg: 
+Real:                        dog   Classifier:                 great pyrenees  
+PetLabelDog: 1  ClassLabelDog: 1
+
+# Total Images 4 # Matches: 0 # NOT Matches: 4
+
+ ** Statistics from calculates_results_stats() function:
+N Images:  4  N Dog Images:  2  N NotDog Images:  2 
+Pct Corr dog:  50.0 Pct Corr NOTdog: 100.0  Pct Corr Breed:   0.0
+
+ ** Check Statistics - calculated from this function as a check:
+N Images:  4  N Dog Images:  2  N NotDog Images:  2 
+Pct Corr dog:  50.0 Pct Corr NOTdog: 100.0  Pct Corr Breed:   0.0
+
+
+*** Results Summary for CNN Model Architecture RESNET ***
+N Images            :   4
+N Dog Images        :   2
+N Not-Dog Images    :   2
+ 
+pct_match           : 0.000000
+pct_correct_dogs    : 50.000000
+pct_correct_breed   : 0.000000
+pct_correct_notdogs : 100.000000
+
+INCORRECT Dog/NOT Dog Assignments:
+Real:                        dog   Classifier: three-toed sloth, ai, bradypus tridactylus
+
+INCORRECT Dog Breed Assignment:
+Real:                        dog   Classifier:                 great pyrenees
+
+Total Elapsed Runtime: 0:0:2
